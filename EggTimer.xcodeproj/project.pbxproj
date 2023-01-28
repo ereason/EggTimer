@@ -13,6 +13,7 @@
 		5E720BB429856A59002EA4CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E720BB229856A59002EA4CD /* Main.storyboard */; };
 		5E720BB629856A5A002EA4CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E720BB529856A5A002EA4CD /* Assets.xcassets */; };
 		5E720BB929856A5A002EA4CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E720BB729856A5A002EA4CD /* LaunchScreen.storyboard */; };
+		5E720BC129856B06002EA4CD /* alarm_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5E720BC029856B06002EA4CD /* alarm_sound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5E720BB529856A5A002EA4CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E720BB829856A5A002EA4CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E720BBA29856A5A002EA4CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E720BC029856B06002EA4CD /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm_sound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				5E720BAE29856A58002EA4CD /* SceneDelegate.swift */,
 				5E720BB029856A58002EA4CD /* ViewController.swift */,
 				5E720BB229856A59002EA4CD /* Main.storyboard */,
+				5E720BC029856B06002EA4CD /* alarm_sound.mp3 */,
 				5E720BB529856A5A002EA4CD /* Assets.xcassets */,
 				5E720BB729856A5A002EA4CD /* LaunchScreen.storyboard */,
 				5E720BBA29856A5A002EA4CD /* Info.plist */,
@@ -127,6 +130,7 @@
 			files = (
 				5E720BB929856A5A002EA4CD /* LaunchScreen.storyboard in Resources */,
 				5E720BB629856A5A002EA4CD /* Assets.xcassets in Resources */,
+				5E720BC129856B06002EA4CD /* alarm_sound.mp3 in Resources */,
 				5E720BB429856A59002EA4CD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,6 +299,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +307,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.EpifantsevG.EggTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -323,6 +331,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +339,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.EpifantsevG.EggTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
